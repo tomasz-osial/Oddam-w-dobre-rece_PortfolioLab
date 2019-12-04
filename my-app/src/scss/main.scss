@@ -2,5 +2,13 @@
 @import "settings/_colors";
 
 body {
-   font-family: $font-base;
+  font-family: $font-base;
+  width: 1900px;
  }
+.homeHeaderContainer {
+  display: flex;
+}
+.logoHeader {
+  max-width: 885px;
+  max-height: 963px;
+}
