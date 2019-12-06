@@ -43,7 +43,6 @@ a {
   display: flex;
   font-size: 18px;
   color: $colorDarkGrey;
-  display: flex;
   justify-content: flex-end;
 }
 .menuList li {
@@ -128,4 +127,62 @@ a {
   font-size: 16px;
   line-height: 28px;
   margin-bottom: 86px;
+}
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  color: $colorDarkGrey;
+}
+.mainReturnAction {
+  text-transform: uppercase;
+  color: $colorDarkGrey;
+  font-size: 36px;
+  border: 0.75px solid $colorDarkGrey;
+  text-align: center;
+  padding: 13px 93px 13px 93px;
+}
+.mainReturnAction:hover {
+  color: $colorYellow;
+}
+.mainTitle {
+  text-align: center;
+  font-size: 38px;
+  letter-spacing: -0.76px;
+  margin: 55px 0 39px 0;
+}
+.mainColumnsContainer {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 44px 0 35px 0;
+  background: $colorWhite;
+}
+.mainColumnTitle:after {
+  content: "";
+  display: block;
+  width: 70px;
+  margin: 10px auto 0;
+  border-top: 0.75px solid $colorDarkGrey;
+}
+.mainActionsContainer {
+  width: 310px;
+  height: 120px;
+  margin: 35px 795px 80px 795px;
+}
+.mainColumn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.mainIcon {
+  padding: 73px 0 8px 0;
+}
+.mainColumnTitle {
+  text-align: center;
+  font-size: 18px;
+}
+.mainColumnText {
+  text-align: center;
+  margin-bottom: 62px;
+  font-size: 16px;
 }
