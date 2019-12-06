@@ -4,7 +4,8 @@ import '../scss/main.scss';
 import HomeHeader from '../components/Home/homeHeader';
 import HomeColumns from '../components/Home/homeColumns';
 import HomeMain from '../components/Home/homeMain';
-import HomeAbout from '../components/Home/homeAbout'
+import HomeAbout from '../components/Home/homeAbout';
+import HomeHelp from "../components/Home/homeHelp";
 
 const Home  = () => {
     return (
@@ -13,6 +14,7 @@ const Home  = () => {
             <HomeColumns />
             <HomeMain />
             <HomeAbout />
+            <HomeHelp />
         </>
     )
 };
