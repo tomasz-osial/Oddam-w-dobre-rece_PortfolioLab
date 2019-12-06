@@ -2,12 +2,13 @@ import React from "react";
 
 import '../scss/main.scss';
 
-const returnItems  = () => {
+
+const LogIn  = () => {
     return (
         <>
-            <h1>Oddaj rzeczy</h1>
+            <h1>Panel logowania</h1>
         </>
     )
 };
 
-export default returnItems;
+export default LogIn;

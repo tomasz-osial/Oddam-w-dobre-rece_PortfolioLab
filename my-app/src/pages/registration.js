@@ -2,12 +2,12 @@ import React from "react";
 
 import '../scss/main.scss';
 
-const returnItems  = () => {
+const Registration  = () => {
     return (
         <>
-            <h1>Oddaj rzeczy</h1>
+            <h1>Panel rejestracji</h1>
         </>
     )
 };
 
-export default returnItems;
+export default Registration;

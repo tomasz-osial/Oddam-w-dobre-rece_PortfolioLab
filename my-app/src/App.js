@@ -8,6 +8,9 @@ import { BrowserRouter,
 import './scss/main.scss';
 import Home from './pages/home';
 import ReturnItems from './pages/returnItems';
+import Registration from './pages/registration';
+import LogIn from './pages/logIn'
+
 
 const App = () => {
     return (
@@ -15,6 +18,8 @@ const App = () => {
           <Switch>
             <Route exact path='/' component={Home} />
             <Route path='/oddaj-rzeczy' component={ReturnItems} />
+            <Route path='/rejestracja' component={Registration} />
+            <Route path='/logowanie' component={LogIn} />
           </Switch>
         </BrowserRouter>
     )
