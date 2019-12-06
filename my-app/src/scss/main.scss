@@ -2,5 +2,130 @@
 @import "settings/_colors";
 
 body {
-   font-family: $font-base;
+  font-family: $font-base;
+  width: 1900px;
  }
+.homeHeaderContainer {
+  display: flex;
+}
+.logoHeader {
+  width: 885px;
+  height: 776px;
+}
+.navigationContainer {
+  width: 873px;
+  position: relative;
+}
+.logInPanel {
+  display: flex;
+  justify-content: flex-end;
+  color: $colorGrey;
+  font-size: 13px;
+}
+a {
+  text-decoration: none;
+}
+.registerBtn {
+  padding: 9px 10px 9px 10px;
+  border: 0.75px solid $colorYellow;
+  color: $colorDarkGrey;
+}
+.logInBtn {
+  padding: 9px 20px 8px 0;
+  color: $colorDarkGrey;
+}
+.registerBtn:hover,
+.logInBtn:hover {
+  color: $colorYellow;
+}
+.menuList {
+  list-style-type: none;
+  display: flex;
+  font-size: 18px;
+  color: $colorDarkGrey;
+  display: flex;
+  justify-content: flex-end;
+}
+.menuList li {
+  padding: 9px 22px 9px 23px;
+  border: 0.75px solid rgba(0,0,0,0);
+}
+.menuList li:hover{
+  border: 0.75px solid $colorDarkGrey;
+}
+.menuList li:first-of-type {
+  padding: 9px 20px 9px 20px;
+}
+.menuList li:nth-of-type(2) {
+  padding: 9px 23px 9px 35px;
+}
+.titleContainer {
+  top: 210px;
+  left: 67px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  position: absolute;
+}
+.titleContainer p {
+  text-align: center;
+  font-size: 38px;
+  color: $colorDarkGrey;
+}
+.actionsContainer {
+  display: flex;
+  justify-content: center;
+}
+.returnAction,
+.collectAction {
+  text-transform: uppercase;
+  color: $colorDarkGrey;
+  font-size: 36px;
+  border: 0.75px solid $colorDarkGrey;
+  text-align: center;
+  margin-top: 65px;
+}
+.returnAction:hover,
+.collectAction:hover {
+  color: $colorYellow;
+}
+.returnAction {
+  padding: 13px 93px 13px 93px;
+  margin-right: 30px;
+}
+.collectAction {
+  padding: 13px 51px 13px 51px;
+  margin-left: 30px;
+}
+.homeMainContainer {
+  width: 1900px;
+}
+.columnsContainer {
+  display: flex;
+  justify-content: space-around;
+  background: $colorYellow;
+  color: $colorDarkGrey;
+}
+.column {
+  width: 334px;
+  text-align: center;
+  margin: 0 auto;
+  color: $colorBrown;
+}
+.columnNumber {
+  margin:46px 0 10px 0;
+  font-size: 90px;
+}
+.columnTitle {
+  margin-bottom: 28px;
+  text-transform: uppercase;
+  font-size: 18px;
+  letter-spacing: -0.36px;
+}
+.columnText {
+  font-family: $font-alt;
+  letter-spacing: -0.32px;
+  font-size: 16px;
+  line-height: 28px;
+  margin-bottom: 86px;
+}
