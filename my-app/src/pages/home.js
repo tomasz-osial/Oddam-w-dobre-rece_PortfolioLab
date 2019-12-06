@@ -3,7 +3,8 @@ import React from "react";
 import '../scss/main.scss';
 import HomeHeader from '../components/Home/homeHeader';
 import HomeColumns from '../components/Home/homeColumns';
-import HomeMain from '../components/Home/homeMain'
+import HomeMain from '../components/Home/homeMain';
+import HomeAbout from '../components/Home/homeAbout'
 
 const Home  = () => {
     return (
@@ -11,6 +12,7 @@ const Home  = () => {
             <HomeHeader />
             <HomeColumns />
             <HomeMain />
+            <HomeAbout />
         </>
     )
 };

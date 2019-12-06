@@ -186,3 +186,42 @@ a {
   margin-bottom: 62px;
   font-size: 16px;
 }
+.aboutContainer {
+  display: flex;
+  margin-top: 80px;
+  background: $colorWhite;
+}
+.aboutColumn {
+  width: 958px;
+  display: flex;
+  flex-direction: column;
+}
+.aboutPeople {
+  max-width: 942px;
+  height: auto;
+  object-fit: cover;
+}
+.aboutTitle {
+  text-align: center;
+  color: $colorDarkGrey;
+  font-size: 38px;
+  letter-spacing: -0.76px;
+  margin: 186px 0 40px 0;
+}
+.aboutDecoration {
+  margin-bottom: 55px;
+}
+.aboutText {
+  font-size: 30px;
+  letter-spacing: -0.6px;
+  text-align: center;
+  margin: 0 152px 51px 149px;
+  line-height: 54px;
+}
+.signatureContainer {
+  display: flex;
+  justify-content: flex-end;
+}
+.aboutSignature {
+  margin: 0 152px 185px 0;
+}
