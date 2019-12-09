@@ -6,6 +6,7 @@ import HomeColumns from '../components/Home/homeColumns';
 import HomeMain from '../components/Home/homeMain';
 import HomeAbout from '../components/Home/homeAbout';
 import HomeHelp from "../components/Home/homeHelp";
+import HomeFooter from'../components/Home/HomeFooter';
 
 const Home  = () => {
     return (
@@ -15,6 +16,7 @@ const Home  = () => {
             <HomeMain />
             <HomeAbout />
             <HomeHelp />
+            <HomeFooter />
         </>
     )
 };

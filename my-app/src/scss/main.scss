@@ -226,3 +226,89 @@ a {
 .aboutSignature {
   margin: 0 152px 185px 0;
 }
+.footerContainer {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+}
+.footerBackground {
+  position: absolute;
+  opacity: 0.5;
+}
+.formColumnContainer {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  left: 1230px
+}
+.formTitle {;
+  text-align: center;
+  color: $colorDarkGrey;
+  letter-spacing: -0.76px;
+  font-size: 38px;
+  margin: 200px 100px 25px 0;
+}
+.contactForm {
+  display: flex;
+  flex-wrap: wrap;
+  color: $colorDarkGrey;
+  font-size: 16px;
+  font-weight: bolder;
+}
+.contactForm input,
+.contactForm textarea {
+  font-size: 18px;
+  border: none;
+  background-color:transparent;
+  padding-bottom: 4px;
+  border-bottom: 1px solid $colorGrey;
+  font-family: $font-base;
+}
+.footerDecoration {
+  margin:0 100px 80px 0;
+}
+.contactForm input {
+  margin: 12px 16px 40px 0;
+}
+.contactForm textarea {
+  margin: 12px 0 12px 0;
+}
+.submitContainer {
+  display: flex;
+  justify-content: flex-end;
+  width: 528px;
+}
+.submitBtn {
+  height: 50px;
+  width: 150px;
+  border: 0.75px solid $colorDarkGrey;
+  font-size: 18px;
+  color: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 32px;
+}
+.submitBtn:hover {
+  color: $colorYellow;
+  cursor: pointer;
+}
+.footerBar {
+  display: flex;
+  justify-content: space-between;
+  width: 1014px;
+  position: absolute;
+  left: 886px;
+  bottom: -1095px;
+}
+.copyright {
+  font-size: 18px;
+  color: $colorDarkGrey;
+}
+.mediaContainer {
+  margin-right: 142px;
+}
+.mediaContainer img {
+  margin-left: 20px;
+}
