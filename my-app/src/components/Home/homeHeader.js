@@ -49,10 +49,18 @@ const HomeHeader = () => {
                                 <Link
                                     to="fundations"
                                     smooth={true}
+                                    offset={-70}
                                     >Fundacja i organizacje
                                 </Link>
                             </li>
-                            <li>Kontakt</li>
+                            <li>
+                                <Link
+                                    to='contact'
+                                    smooth={true}
+                                    offset={-70}
+                                >Kontakt
+                                </Link>
+                            </li>
                         </ul>
                     </div>
                     <div className='titleContainer'>
