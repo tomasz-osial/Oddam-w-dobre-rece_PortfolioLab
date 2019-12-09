@@ -11,7 +11,7 @@ import icon4 from '../../assets/Icon-4.svg'
 
 const HomeMain = () => {
     return (
-        <div className='mainContainer'>
+        <div className='mainContainer' id='main'>
             <div className='mainTitle'>
                 Wystarczą 4 proste kroki
             </div>
