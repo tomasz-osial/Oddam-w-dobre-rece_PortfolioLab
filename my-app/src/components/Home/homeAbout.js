@@ -7,7 +7,7 @@ import people from '../../assets/People.jpg'
 
 const HeadAbout = ()=> {
     return (
-    <div className='aboutContainer'>
+    <div className='aboutContainer' id='aboutUs'>
         <div className='aboutColumn'>
             <p className='aboutTitle'>
                 O nas
@@ -22,7 +22,7 @@ const HeadAbout = ()=> {
                 <img src={signature} alt="signature" className='aboutSignature'/>
             </div>
         </div>
-        <img src={people} alt="People image" className='aboutPeople'/>
+        <img src={people} alt="People" className='aboutPeople'/>
     </div>
     )
 };
