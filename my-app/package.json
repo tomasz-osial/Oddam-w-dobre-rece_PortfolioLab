@@ -7,9 +7,10 @@
     "normalize.css": "^8.0.1",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
+    "react-router-dom": "latest",
     "react-scripts": "3.2.0",
     "react-scroll": "^1.7.14",
-    "react-router-dom": "latest"
+    "whatwg-fetch": "^3.0.0"
   },
   "scripts": {
     "start": "react-scripts start",

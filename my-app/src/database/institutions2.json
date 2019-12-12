@@ -1,0 +1,116 @@
+{
+  "foundations": [
+    {
+      "name": "Fundacjom",
+      "desc": "W naszej bazie znajdziesz listę zweryfikowanych Fundacji, z którymi współpracujemy. Możesz sprawdzić czym się zajmują, komu pomagają i czego potrzebują",
+      "items": [
+        {
+          "header": "Fundacja \"Dbam o Zdrowie\"",
+          "subheader": "Cel i misja: Pomóc osobom znajdującym się w trudnej sytuacji życiowej",
+          "description": "ubrania, jedzenie, sprzęt AGD, meble, zabawki"
+        },
+        {
+          "header": "Fundacja \"Dla dzieci\"",
+          "subheader": "Cel i misja: Pomoc dzieciom z ubogich rodzin",
+          "description": "ubrania, meble, zabawki"
+        },
+        {
+          "header": "Fundacja \"Bez domu\"",
+          "subheader": "Cel i misja: Pomoc dla osób nie posiadających miejsca zamieszkania",
+          "description": "ubrania, jedzenie, ciepłe koce"
+        },
+        {
+          "header": "Fundacja \"Bez domu 2\"",
+          "subheader": "Cel i misja: Pomoc dla osób nie posiadających miejsca zamieszkania",
+          "description": "ubrania, jedzenie, ciepłe koce"
+        },
+        {
+          "header": "Fundacja \"Bez domu 3\"",
+          "subheader": "Cel i misja: Pomoc dla osób nie posiadających miejsca zamieszkania",
+          "description": "ubrania, jedzenie, ciepłe koce"
+        },
+        {
+          "header": "Fundacja \"Bez domu 4\"",
+          "subheader": "Cel i misja: Pomoc dla osób nie posiadających miejsca zamieszkania",
+          "description": "ubrania, jedzenie, ciepłe koce"
+        },
+        {
+          "header": "Fundacja \"Bez domu 5\"",
+          "subheader": "Cel i misja: Pomoc dla osób nie posiadających miejsca zamieszkania",
+          "description": "ubrania, jedzenie, ciepłe koce"
+        },
+        {
+          "header": "Fundacja \"Bez domu 6\"",
+          "subheader": "Cel i misja: Pomoc dla osób nie posiadających miejsca zamieszkania",
+          "description": "ubrania, jedzenie, ciepłe koce"
+        },
+        {
+          "header": "Fundacja \"Bez domu 7\"",
+          "subheader": "Cel i misja: Pomoc dla osób nie posiadających miejsca zamieszkania",
+          "description": "ubrania, jedzenie, ciepłe koce"
+        }
+      ]
+    }
+  ],
+  "organisations": [
+    {
+      "name": "Organizacjom pozarządowym",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non ornare quam. Nam bibendum felis et egestas mattis. Orci varius natoque penatibus et magnis dis parturient montes.",
+      "items": [
+        {
+          "header": "Organizacja \"Lorem Ipsum 1\"",
+          "subheader": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+          "description": "veniam, quis, veniam, quis"
+        },
+        {
+          "header": "Organizacja \"Lorem Ipsum 2\"",
+          "subheader": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+          "description": "veniam, quis, veniam"
+        },
+        {
+          "header": "Organizacja \"Lorem Ipsum 3\"",
+          "subheader": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+          "description": "veniam, quis, veniam, laborum"
+        },
+        {
+          "header": "Organizacja \"Lorem Ipsum 4\"",
+          "subheader": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+          "description": "veniam, laborum"
+        },
+        {
+          "header": "Organizacja \"Lorem Ipsum 5\"",
+          "subheader": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+          "description": "quis, veniam"
+        },
+        {
+          "header": "Organizacja \"Lorem Ipsum 6\"",
+          "subheader": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+          "description": "laborum, occaecat"
+        }
+      ]
+    }
+    ],
+      "locals": [
+        {
+          "name": "Zbiórkom lokalnym",
+          "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non ornare quam. Nam bibendum felis et egestas mattis. Orci varius natoque penatibus et magnis dis parturient montes.",
+          "items": [
+            {
+              "header": "Zbiórka \"Lorem Ipsum 1\"",
+              "subheader": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+              "description": "veniam, quis, veniam, quis"
+            },
+            {
+              "header": "Zbiórka \"Lorem Ipsum 2\"",
+              "subheader": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+              "description": "veniam, quis, veniam, quis"
+            },
+            {
+              "header": "Zbiórka \"Lorem Ipsum 3\"",
+              "subheader": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+              "description": "veniam, quis, veniam, quis"
+            }
+          ]
+        }
+      ]
+    }
