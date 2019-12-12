@@ -1,0 +1,130 @@
+{
+  "institutions": [
+    {
+      "id": 1,
+      "type": "foundation",
+      "name": "Fundacja \"Dbam o Zdrowie\"",
+      "description": "Cel i misja: Pomóc osobom znajdującym się w trudnej sytuacji życiowej",
+      "item": "ubrania, jedzenie, sprzęt AGD, meble, zabawki"
+    },
+    {
+      "id": 2,
+      "type": "foundation",
+      "name": "Fundacja 'Dla dzieci'",
+      "description": "Cel i misja: Pomoc dzieciom z ubogich rodzin",
+      "item": "ubrania, meble, zabawki"
+    },
+    {
+      "id": 3,
+      "type": "foundation",
+      "name": "Fundacja 'Bez domu'",
+      "description": "Cel i misja: Pomoc dla osób nie posiadających miejsca zamieszkania",
+      "item": "ubrania, jedzenie, ciepłe koce"
+    },
+    {
+      "id": 4,
+      "type": "foundation",
+      "name": "Fundacja 'Bez domu 2'",
+      "description": "Cel i misja: Pomoc dla osób nie posiadających miejsca zamieszkania",
+      "item": "ubrania, jedzenie, ciepłe koce"
+    },
+    {
+      "id": 5,
+      "type": "foundation",
+      "name": "Fundacja 'Bez domu 3'",
+      "description": "Cel i misja: Pomoc dla osób nie posiadających miejsca zamieszkania",
+      "item": "ubrania, jedzenie, ciepłe koce"
+    },
+    {
+      "id": 6,
+      "type": "foundation",
+      "name": "Fundacja 'Bez domu 4'",
+      "description": "Cel i misja: Pomoc dla osób nie posiadających miejsca zamieszkania",
+      "item": "ubrania, jedzenie, ciepłe koce"
+    },
+    {
+      "id": 7,
+      "type": "foundation",
+      "name": "Fundacja 'Bez domu 5'",
+      "description": "Cel i misja: Pomoc dla osób nie posiadających miejsca zamieszkania",
+      "item": "ubrania, jedzenie, ciepłe koce"
+    },
+    {
+      "id": 8,
+      "type": "foundation",
+      "name": "Fundacja 'Bez domu 6'",
+      "description": "Cel i misja: Pomoc dla osób nie posiadających miejsca zamieszkania",
+      "item": "ubrania, jedzenie, ciepłe koce"
+    },
+    {
+      "id": 9,
+      "type": "foundation",
+      "name": "Fundacja 'Bez domu 7'",
+      "description": "Cel i misja: Pomoc dla osób nie posiadających miejsca zamieszkania",
+      "item": "ubrania, jedzenie, ciepłe koce"
+    },
+    {
+      "id": 10,
+      "type": "organisation",
+      "name": "Organizacja 'Lorem Ipsum 1'",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      "item": "veniam, quis, veniam, quis"
+    },
+    {
+      "id": 11,
+      "type": "organisation",
+      "name": "Organizacja 'Lorem Ipsum 2'",
+      "description": "Lorem ipsum dolor sit amet",
+      "item": "veniam, quis, veniam"
+    },
+    {
+      "id": 12,
+      "type": "organisation",
+      "name": "Organizacja 'Lorem Ipsum 3'",
+      "description": "Lorem ipsum dolor sit amet consectetur",
+      "item": "veniam, quis, veniam, laborum"
+    },
+    {
+      "id": 13,
+      "type": "organisation",
+      "name": "Organizacja 'Lorem Ipsum 4'",
+      "description": "Lorem ipsum amet consectetur",
+      "item": "veniam, laborum"
+    },
+    {
+      "id": 14,
+      "type": "organisation",
+      "name": "Organizacja 'Lorem Ipsum 5'",
+      "description": "Lorem ipsum dolor consectetur",
+      "item": "quis, veniam"
+    },
+    {
+      "id": 15,
+      "type": "organisation",
+      "name": "Organizacja 'Lorem Ipsum 6'",
+      "description": "Lorem amet consectetur",
+      "item": "laborum, occaecat"
+    },
+    {
+      "id": 16,
+      "type": "local",
+      "name": "Zbiórka 'Lorem Ipsum 1'",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      "item": "veniam, quis, veniam, quis"
+    },
+    {
+      "id": 17,
+      "type": "local",
+      "name": "Zbiórka 'Lorem Ipsum 2'",
+      "description": "Lorem ipsum dolor sit amet",
+      "item": "veniam, quis, veniam"
+    },
+    {
+      "id": 18,
+      "type": "local",
+      "name": "Zbiórka 'Lorem Ipsum 2'",
+      "description": "Lorem ipsum dolor sit amet",
+      "item": "veniam, quis, veniam"
+    }
+  ]
+}

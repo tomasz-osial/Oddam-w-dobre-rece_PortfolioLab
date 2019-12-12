@@ -312,3 +312,40 @@ a {
 .mediaContainer img {
   margin-left: 20px;
 }
+.helpTitleContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.helpTitle {
+  text-align: center;
+  letter-spacing: -0.76px;
+  color: $colorDarkGrey;
+  font-size: 38px;
+  margin: 70px 0 31px 0;
+}
+.helpInstitutionsContainer {
+  display: flex;
+  justify-content: center;
+}
+.helpInstitutionsContainer div {
+  padding: 23px 42px 23px 42px;
+  margin: 50px 32px 0 33px;
+  font-size: 24px;
+  color: $colorDarkGrey;
+  display: flex;align-items: center;
+  border: 0.75px solid transparent;
+  cursor: pointer;
+}
+.helpInstitutionsContainer div:hover {
+  border: 0.75px solid $colorDarkGrey;
+}
+.helpInstitutionsContainer div.helpInstitutionsActive {
+  border: 0.75px solid $colorDarkGrey;
+}
+.institutionName {
+  font-size: 26px;
+  color: $colorDarkGrey;
+  font-weight: lighter;
+  font-family: $font-alt;
+}
