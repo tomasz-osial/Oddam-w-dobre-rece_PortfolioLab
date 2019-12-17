@@ -6,23 +6,15 @@ import decoration from '../../assets/Decoration.svg'
 class HomeHelp extends Component {
 
     state = {
-        helpInstitutions: [],
+        items: [],
+        desc: '',
         institution: "foundations",
         currentPage: 0
     };
 
-    fetchInstitutionsDefault = () => {
-        const URL_ADDRESS = 'http://localhost:3000/institutions';
-        fetch(URL_ADDRESS)
-            .then(resp => resp.json())
-            .then(institutions => this.setState({
-                helpInstitutions: institutions.filter(el => el.type === "foundation")
-            }));
-    };
-
-    get items() {
-        const { helpInstitutions, currentPage } = this.state;
-        return helpInstitutions.slice(currentPage * 3, currentPage * 3 + 3)
+    get elements() {
+        const { items, currentPage } = this.state;
+        return items.slice(currentPage * 3, currentPage * 3 + 3)
     }
 
     changeCurrentPage = (i) => () => {
@@ -32,9 +24,9 @@ class HomeHelp extends Component {
 };
 
     get pagination() {
-        const pageAmmount = Math.ceil(this.state.helpInstitutions.length / 3)
+        const pageAmount = Math.ceil(this.state.items.length / 3);
         const result = [];
-        for (let i =0; i < pageAmmount; i++) {
+        for (let i = 0; i < pageAmount; i++) {
             result.push(<li key={i} onClick={this.changeCurrentPage(i)}>
                 {i + 1}
             </li>)
@@ -43,47 +35,27 @@ class HomeHelp extends Component {
         return result
     }
 
-    showFoundations = () => {
-        const URL_ADDRESS = 'http://localhost:3000/institutions';
-        fetch(URL_ADDRESS)
-            .then(resp => resp.json())
-            .then(institutions => this.setState({
-                helpInstitutions: institutions.filter(el => el.type === "foundation")
-            }));
-        this.setState({
-            institution: "foundations"
-        });
+    showFoundations = (name) => () => {
+        this.fetchFoundations(name)
     };
 
-    showOrganisations = () => {
-        const URL_ADDRESS = 'http://localhost:3000/institutions';
+    fetchFoundations = (name) => {
+        const URL_ADDRESS = `http://localhost:3000/${name}`;
         fetch(URL_ADDRESS)
             .then(resp => resp.json())
+            .then(data => data[0])
             .then(institutions => this.setState({
-                helpInstitutions: institutions.filter(el => el.type === "organisation")
+                desc: institutions.desc,
+                items: institutions.items,
+                institution: name
             }));
-        this.setState({
-            institution: "organisations"
-        });
     };
 
-    showLocals = () => {
-        const URL_ADDRESS = 'http://localhost:3000/institutions';
-        fetch(URL_ADDRESS)
-            .then(resp => resp.json())
-            .then(institutions => this.setState({
-                helpInstitutions: institutions.filter(el => el.type === "local")
-            }));
-        this.setState({
-            institution: "locals"
-        });
-    };
     componentDidMount() {
-        this.fetchInstitutionsDefault();
+        this.fetchFoundations('foundations');
     }
 
     render() {
-        const { helpInstitutions } = this.state;
         return (
             <div className='helpContainer' id="fundations">
                 <div className='helpTitleContainer'>
@@ -95,43 +67,49 @@ class HomeHelp extends Component {
                 <div className='helpInstitutionsContainer'>
                     <div className={
                              this.state.institution === "foundations" ? 'helpInstitutionsActive' : ''}
-                         onClick={this.showFoundations}
+                         onClick={this.showFoundations('foundations')}
                         >Fundacjom
                     </div>
                     <div className={
                         this.state.institution === "organisations" ? 'helpInstitutionsActive' : ''}
-                         onClick={this.showOrganisations}
+                         onClick={this.showFoundations('organisations')}
                         >Organizacjom<br/>pozarządowym
                     </div>
                     <div className={
                         this.state.institution === "locals" ? 'helpInstitutionsActive' : ''}
-                         onClick={this.showLocals}
+                         onClick={this.showFoundations('locals')}
                         >Lokalnym<br/>zbiórkom
                     </div>
                 </div>
-                <div className='institutionsList'>
-                    <ul>
-                        {this.items.map(el =>
-                            <li key={el.id}>
-                                <div className='institutionName'>
-                                    {el.name}
-                                </div>
-                                <div>
-                                    {el.description}
-                                </div>
-                                <div>
-                                    {el.item}
-                                </div>
-                        </li>
-                        )}
-                    </ul>
-                    <ul>{this.pagination}</ul>
+                <div className='institutionsContainer'>
+                    <div className='institutionsDesc'>
+                        {this.state.desc}
+                    </div>
+                    <div className='institutionsList'>
+                                {this.elements.map(el =>
+                                        <div key={el.header}
+                                        className='listContainer'>
+                                            <div className='nameContainer'>
+                                                <div className='institutionName'>
+                                                    {el.header}
+                                                </div>
+                                                <div className='institutionMission'>
+                                                    {el.subheader}
+                                                </div>
+                                            </div>
+                                            <div className='institutionItems'>
+                                                {el.description}
+                                            </div>
+                                        </div>
+                                )}
+                        <ul className='listPagination'>
+                            {this.pagination}
+                        </ul>
+                    </div>
                 </div>
             </div>
         )
     }
 }
-
-
 
 export default HomeHelp;
