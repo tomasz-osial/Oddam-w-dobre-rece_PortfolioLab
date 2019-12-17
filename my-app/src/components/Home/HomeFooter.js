@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {Component} from 'react';
 
 import '../../scss/main.scss';
 import decoration from '../../assets/Decoration.svg';
@@ -14,24 +14,7 @@ const HomeFooter = ()=>{
             <p className='formTitle'>Skontaktuj się z nami</p>
             <img src={decoration} alt="decoration" className='footerDecoration'/>
             <div className='formContainer'>
-                <form className='contactForm'>
-                    <label>Wpisz swoje imię<br/>
-                        <input type="text" placeholder='Twoje imię' size='25'/>
-                    </label>
-                    <label>Wpisz swój email<br/>
-                        <input type="text" placeholder='Twój email np. xyz@abc.pl' size='25'/>
-                    </label>
-                    <label>Wpisz swoją wiadomość
-                        <textarea rows="4" cols="54" placeholder='Lorem ipsum dolor sit amet, consectetur adipiscing
-                        elit. Nulla varius placerat dolor. Sed venenatis ex aliquam dolor imperdiet placerat.
-                        Curabitur ultricies sollicitudin sapien in bibendum.'/>
-                    </label>
-                    <div className='submitContainer'>
-                        <div className='submitBtn'>
-                            Wyślij
-                        </div>
-                    </div>
-                </form>
+                <Form />
             </div>
         </div>
         <div className='footerBar'>
@@ -47,5 +30,45 @@ const HomeFooter = ()=>{
     )
 };
 
+class Form extends Component {
+
+    state= {
+        name:'',
+        email: '',
+        message: '',
+        isNameValid: true,
+        isEmailValid: true,
+        isFormClicked: false
+    };
+
+   isFormValid = () => {
+       const { name, email, message} = this.state;
+       const isNameValid = name.length > 0;
+
+   };
+
+    render() {
+        return (
+            <form className='contactForm'>
+                <label>Wpisz swoje imię<br/>
+                    <input type="text" placeholder='Twoje imię' size='25'/>
+                </label>
+                <label>Wpisz swój email<br/>
+                    <input type="text" placeholder='Twój email np. xyz@abc.pl' size='25'/>
+                </label>
+                <label>Wpisz swoją wiadomość
+                    <textarea rows="4" cols="54" placeholder='Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit. Nulla varius placerat dolor. Sed venenatis ex aliquam dolor imperdiet placerat.
+                        Curabitur ultricies sollicitudin sapien in bibendum.'/>
+                </label>
+                <div className='submitContainer'>
+                    <div className='submitBtn'>
+                        Wyślij
+                    </div>
+                </div>
+            </form>
+        )
+    }
+}
 
 export default HomeFooter;

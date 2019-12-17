@@ -343,9 +343,66 @@ a {
 .helpInstitutionsContainer div.helpInstitutionsActive {
   border: 0.75px solid $colorDarkGrey;
 }
+.institutionsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.institutionsDesc {
+  width: 640px;
+  margin: 70px 630px 32px 630px;
+  text-align: center;
+  color: $colorDarkGrey;
+  font-size: 22px;
+}
+.institutionsList {
+  margin: 0 278px 63px 278px;
+  display: flex;
+  flex-direction: column;
+}
+.nameContainer {
+  display: flex;
+  flex-direction: column;
+}
+.listContainer {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid $colorGrey;
+}
+.listContainer:last-of-type {
+  border: none;
+}
 .institutionName {
+  font-family: $font-alt;
   font-size: 26px;
   color: $colorDarkGrey;
-  font-weight: lighter;
+  margin: 34px 0 6px 0;
+}
+.institutionMission,
+.institutionItems {
   font-family: $font-alt;
+  font-size: 18px;
+  color: $colorDarkGrey;
+}
+.institutionMission {
+  font-style: italic;
+  margin-bottom: 31px;
+}
+.institutionItems {
+  margin: 50px 22px 48px 0;
+}
+.listPagination {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  font-size: 18px;
+  font-family: $font-base;
+  color: $colorDarkGrey;
+}
+.listPagination > li {
+  padding: 13px 15px 13px 15px;
+  margin: 0 11.07px 0 11.07px;
+}
+.listPaginationActive {
+  border: 1px solid $colorGrey;
 }
