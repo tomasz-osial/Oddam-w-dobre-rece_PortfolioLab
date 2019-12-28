@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-
+import classnames from 'classnames';
 import '../../scss/main.scss';
 import decoration from '../../assets/Decoration.svg'
 
@@ -27,7 +27,7 @@ class HomeHelp extends Component {
         const pageAmount = Math.ceil(this.state.items.length / 3);
         const result = [];
         for (let i = 0; i < pageAmount; i++) {
-            result.push(<li key={i} onClick={this.changeCurrentPage(i)}>
+            result.push(<li className={classnames({['listPaginationActive']: this.state.currentPage === i})} key={i} onClick={this.changeCurrentPage(i)}>
                 {i + 1}
             </li>)
         }
