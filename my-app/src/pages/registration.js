@@ -69,9 +69,11 @@ const Registration  = () => {
                     </label>
                 </form>
                 <div className='regActionContainer'>
-                    <div className='regLogin'>
-                        Zaloguj się
-                    </div>
+                    <NavLink exact to = '/logowanie'>
+                        <div className='regLogin'>
+                            Zaloguj się
+                        </div>
+                    </NavLink>
                     <div className='regRegister'>
                         Załóż konto
                     </div>

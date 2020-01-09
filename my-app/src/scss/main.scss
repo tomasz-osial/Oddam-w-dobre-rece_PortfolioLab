@@ -464,4 +464,27 @@ a {
 .regRegister {
   border: 0.75px solid $colorDarkGrey;
   margin-left: 285px;
+  cursor: pointer;
+}
+.regLogin:hover,
+.regRegister:hover {
+  color: $colorYellow;
+}
+.regForm label {
+  font-family: $font-base;
+  font-size: 16px;
+  color: $colorDarkGrey;
+  font-weight: bolder;
+}
+.regForm label:nth-of-type(1) {
+  margin-top: 25px;
+}
+.regForm input {
+  background: $colorWhite;
+  border: none;
+  border-bottom: 1px solid $colorGrey;
+  font-family: $font-base;
+  font-size: 16px;
+  width: 250px;
+  margin: 15px 0 31px 0;
 }
