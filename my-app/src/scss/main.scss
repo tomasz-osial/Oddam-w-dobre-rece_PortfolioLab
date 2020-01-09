@@ -453,6 +453,16 @@ a {
   justify-content: center;
   align-items: center;
 }
+.logForm {
+  margin: 60px 0 0 0;
+  background: $colorWhite;
+  width: 384px;
+  height: 235px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .regLogin,
 .regRegister {
   font-family: $font-base;
@@ -470,16 +480,19 @@ a {
 .regRegister:hover {
   color: $colorYellow;
 }
-.regForm label {
+.regForm label,
+.logForm label {
   font-family: $font-base;
   font-size: 16px;
   color: $colorDarkGrey;
   font-weight: bolder;
 }
-.regForm label:nth-of-type(1) {
+.regForm label:nth-of-type(1),
+.logForm label:nth-of-type(1) {
   margin-top: 25px;
 }
-.regForm input {
+.regForm input,
+.logForm input {
   background: $colorWhite;
   border: none;
   border-bottom: 1px solid $colorGrey;
@@ -487,4 +500,21 @@ a {
   font-size: 16px;
   width: 250px;
   margin: 15px 0 31px 0;
+}
+.logLogin,
+.logRegister {
+  font-family: $font-base;
+  font-size: 18px;
+  color: black;
+  padding: 13px 11px 13px 12px;
+  margin: 53px 0 122px 0;
+}
+.logLogin {
+  border: 0.75px solid $colorDarkGrey;
+  margin-left: 285px;
+  cursor: pointer;
+}
+.logLogin:hover,
+.logRegister:hover {
+  color: $colorYellow;
 }
