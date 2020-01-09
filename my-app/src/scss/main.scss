@@ -424,3 +424,67 @@ a {
   text-align: center;
   width: 570px;
 }
+.regNavigationContainer {
+  margin: 37px 139px 0 0;
+}
+.regContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.regActionContainer {
+  display: flex;
+}
+.regTitle {
+  font-family:$font-base;
+  font-size: 40px;
+  color: $colorDarkGrey;
+  text-align: center;
+  letter-spacing: -0.8px;
+  margin: 90px 0 25px 0;
+}
+.regForm {
+  margin: 60px 0 0 0;
+  background: $colorWhite;
+  width: 384px;
+  height: 328px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.regLogin,
+.regRegister {
+  font-family: $font-base;
+  font-size: 18px;
+  color: black;
+  padding: 13px 11px 13px 12px;
+  margin: 53px 0 122px 0;
+}
+.regRegister {
+  border: 0.75px solid $colorDarkGrey;
+  margin-left: 285px;
+  cursor: pointer;
+}
+.regLogin:hover,
+.regRegister:hover {
+  color: $colorYellow;
+}
+.regForm label {
+  font-family: $font-base;
+  font-size: 16px;
+  color: $colorDarkGrey;
+  font-weight: bolder;
+}
+.regForm label:nth-of-type(1) {
+  margin-top: 25px;
+}
+.regForm input {
+  background: $colorWhite;
+  border: none;
+  border-bottom: 1px solid $colorGrey;
+  font-family: $font-base;
+  font-size: 16px;
+  width: 250px;
+  margin: 15px 0 31px 0;
+}
