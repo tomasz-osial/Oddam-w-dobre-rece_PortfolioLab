@@ -9,7 +9,8 @@ import './scss/main.scss';
 import Home from './pages/home';
 import ReturnItems from './pages/returnItems';
 import Registration from './pages/registration';
-import LogIn from './pages/logIn'
+import LogIn from './pages/logIn';
+import LogOut from './pages/logout';
 
 
 const App = () => {
@@ -20,6 +21,7 @@ const App = () => {
             <Route path='/oddaj-rzeczy' component={ReturnItems} />
             <Route path='/rejestracja' component={Registration} />
             <Route path='/logowanie' component={LogIn} />
+            <Route path='/wylogowano' component={LogOut} />
           </Switch>
         </BrowserRouter>
     )

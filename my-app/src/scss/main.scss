@@ -518,3 +518,16 @@ a {
 .logRegister:hover {
   color: $colorYellow;
 }
+.logoutHome {
+  border: 0.75px solid $colorDarkGrey;
+  text-align: center;
+  cursor: pointer;
+  font-family: $font-base;
+  font-size: 18px;
+  color: black;
+  padding: 13px 17px 13px 18px;
+  margin: 42px 0 125px 0;
+}
+.logoutHome:hover {
+  color: $colorYellow;
+}
