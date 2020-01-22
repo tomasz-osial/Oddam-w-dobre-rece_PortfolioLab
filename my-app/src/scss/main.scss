@@ -492,7 +492,7 @@ a {
   margin-top: 25px;
 }
 .regForm input,
-.logForm input {
+.logFormInput {
   background: $colorWhite;
   border: none;
   border-bottom: 1px solid $colorGrey;
@@ -500,6 +500,15 @@ a {
   font-size: 16px;
   width: 250px;
   margin: 15px 0 31px 0;
+}
+.formError {
+  background: $colorWhite;
+  border: none;
+  border-bottom: 1px solid red;
+  font-family: $font-base;
+  font-size: 16px;
+  width: 250px;
+  margin: 15px 0 10px 0;
 }
 .logLogin,
 .logRegister {
