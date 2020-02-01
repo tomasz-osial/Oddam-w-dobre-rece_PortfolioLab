@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Oddam-w-dobre-rece_PortfolioLab/static/css/main.58abb99d.chunk.css",
+    "main.js": "/Oddam-w-dobre-rece_PortfolioLab/static/js/main.19bc3660.chunk.js",
+    "main.js.map": "/Oddam-w-dobre-rece_PortfolioLab/static/js/main.19bc3660.chunk.js.map",
+    "runtime-main.js": "/Oddam-w-dobre-rece_PortfolioLab/static/js/runtime-main.60818e42.js",
+    "runtime-main.js.map": "/Oddam-w-dobre-rece_PortfolioLab/static/js/runtime-main.60818e42.js.map",
+    "static/js/2.f0dfe530.chunk.js": "/Oddam-w-dobre-rece_PortfolioLab/static/js/2.f0dfe530.chunk.js",
+    "static/js/2.f0dfe530.chunk.js.map": "/Oddam-w-dobre-rece_PortfolioLab/static/js/2.f0dfe530.chunk.js.map",
+    "index.html": "/Oddam-w-dobre-rece_PortfolioLab/index.html",
+    "precache-manifest.970cf0b18c7e733f13263d38e9a9f979.js": "/Oddam-w-dobre-rece_PortfolioLab/precache-manifest.970cf0b18c7e733f13263d38e9a9f979.js",
+    "service-worker.js": "/Oddam-w-dobre-rece_PortfolioLab/service-worker.js",
+    "static/css/main.58abb99d.chunk.css.map": "/Oddam-w-dobre-rece_PortfolioLab/static/css/main.58abb99d.chunk.css.map",
+    "static/js/2.f0dfe530.chunk.js.LICENSE.txt": "/Oddam-w-dobre-rece_PortfolioLab/static/js/2.f0dfe530.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.60818e42.js",
+    "static/js/2.f0dfe530.chunk.js",
+    "static/css/main.58abb99d.chunk.css",
+    "static/js/main.19bc3660.chunk.js"
+  ]
+}

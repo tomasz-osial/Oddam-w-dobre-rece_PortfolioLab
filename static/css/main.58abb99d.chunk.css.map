@@ -1,0 +1,1 @@
+{"version":3,"sources":["main.scss","settings/_fonts.scss"],"names":[],"mappings":"AAGA,KACG,kCCJgC","file":"main.58abb99d.chunk.css","sourcesContent":["@import \"settings/_fonts\";\r\n@import \"settings/_colors\";\r\n\r\nbody {\r\n   font-family: $font-base;\r\n }","$font-base: 'Open Sans', sans-serif;\r\n$font-alt: 'Merriweather', serif;"]}
